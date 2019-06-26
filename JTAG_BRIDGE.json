@@ -1,0 +1,17 @@
+{
+  "module":{
+    "name":"JTAG_BRIDGE",
+    "version":"1.0",
+    "parameters":[]
+  },
+  "hw":[
+    {
+      "interface":"avalon_master",
+      "name":"avalon_master"
+    },
+    {
+      "interface":"avalon_slave",
+      "name":"event"
+    }
+  ]
+}
